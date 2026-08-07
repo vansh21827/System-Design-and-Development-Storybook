@@ -86,14 +86,16 @@ E-commerce product component supporting:
 
 All Storybook stories are organized inside:
 
-```text
+```
 src/
 └── stories/
     ├── Badge.stories.jsx
     ├── Button.stories.jsx
     ├── Input.stories.jsx
     └── ProductCard.stories.jsx
-ProductCard Variants
+```
+
+### ProductCard Variants
 
 The ProductCard story demonstrates multiple product scenarios:
 
@@ -102,10 +104,10 @@ No Discount
 Expensive
 Discount
 Out of Stock
+---
 
-Storybook Args and Controls allow component properties to be modified interactively.
-
-📁 Project Structure
+# 📁 Project Structure
+```
 System-Design-and-Development-Storybook/
 │
 ├── .storybook/
@@ -146,7 +148,9 @@ System-Design-and-Development-Storybook/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-⚙️ Installation
+```
+---
+## ⚙️ Installation
 1. Clone the repository
 git clone https://github.com/vansh21827/System-Design-and-Development-Storybook.git
 2. Navigate to the project
