@@ -218,11 +218,10 @@ Image alternative text
 Keyboard-friendly controls
 Component-level accessibility checks
 ---
-
 ##🔮 Future Enhancements
 
 Potential future improvements include:
-
+```
 Dark Mode support
 Advanced interaction testing
 Visual regression testing
@@ -231,6 +230,7 @@ Automated CI/CD
 Expanded component library
 Centralized design tokens
 MDX-based component documentation
+```
 ---
 
 ###👨‍💻 Author
