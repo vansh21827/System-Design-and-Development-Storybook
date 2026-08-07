@@ -1,5 +1,12 @@
+import { MemoryRouter } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
+
 import iphone from "../assets/iphone.png";
+import smartwatch from "../assets/smartwatch.png";
+import macbook from "../assets/macbook.png";
+import ipad from "../assets/ipad.png";
+import speaker from "../assets/speaker.png";
+
 const product = {
   id: 1,
   title: "iPhone 16 Pro",
@@ -17,14 +24,16 @@ export default {
 
   decorators: [
     (Story) => (
-      <div
-        style={{
-          width: "340px",
-          margin: "40px auto",
-        }}
-      >
-        <Story />
-      </div>
+      <MemoryRouter>
+        <div
+          style={{
+            width: "340px",
+            margin: "40px auto",
+          }}
+        >
+          <Story />
+        </div>
+      </MemoryRouter>
     ),
   ],
 };
@@ -36,60 +45,62 @@ export const Default = {
 };
 
 export const NoDiscount = {
-  args:{
-    product:{
-      "id": 2,
-      "title": "Smartwatch",
-      "brand": "Apple",
-      "category": "Smartwatches",
-      "thumbnail": "/src/assets/smartwatch.png",
-      "price": 499,
-      "rating": 4.7,
-      "discountPercentage": 10
+  args: {
+    product: {
+      id: 2,
+      title: "Smartwatch",
+      brand: "Apple",
+      category: "Smartwatches",
+      thumbnail: smartwatch,
+      price: 499,
+      rating: 4.7,
+      discountPercentage: 10,
     },
   },
 };
 
 export const Expensive = {
-  args:{
-    product:{
-      "id": 1,
-      "title": "MacBook Pro",
-      "brand": "Apple",
-      "category": "Laptops",
-      "thumbnail": "/src/assets/macbook.png",
-      "price": 2499,
-      "rating": 5,
-      "discountPercentage": 12
+  args: {
+    product: {
+      id: 1,
+      title: "MacBook Pro",
+      brand: "Apple",
+      category: "Laptops",
+      thumbnail: macbook,
+      price: 2499,
+      rating: 5,
+      discountPercentage: 12,
     },
   },
 };
+
 export const Discount = {
-  args:{
-    product:{
-      "id": 1,
-      "title": "iPad",
-      "brand": "Apple",
-      "category": "Electronics",
-      "thumbnail": "/src/assets/ipad.png",
-      "price": 1399,
-      "rating": 4.8,
-      "discountPercentage": 20
+  args: {
+    product: {
+      id: 1,
+      title: "iPad",
+      brand: "Apple",
+      category: "Electronics",
+      thumbnail: ipad,
+      price: 1399,
+      rating: 4.8,
+      discountPercentage: 20,
     },
   },
 };
+
 export const OutOfStock = {
   args: {
     product: {
-      "id": 1,
-      "title": "Speaker",
-      "brand": "Apple",
-      "category": "SoundBox",
-      "thumbnail": "/src/assets/speaker.png",
-      "price": 299,
-      "rating": 4.8,
-      "discountPercentage": 0,
-      "stock": 0
+      id: 1,
+      title: "Speaker",
+      brand: "Apple",
+      category: "SoundBox",
+      thumbnail: speaker,
+      price: 299,
+      rating: 4.8,
+      discountPercentage: 0,
+      stock: 0,
     },
   },
 };
