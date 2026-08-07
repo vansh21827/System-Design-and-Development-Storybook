@@ -93,3 +93,154 @@ src/
     ├── Button.stories.jsx
     ├── Input.stories.jsx
     └── ProductCard.stories.jsx
+ProductCard Variants
+
+The ProductCard story demonstrates multiple product scenarios:
+
+Default
+No Discount
+Expensive
+Discount
+Out of Stock
+
+Storybook Args and Controls allow component properties to be modified interactively.
+
+📁 Project Structure
+System-Design-and-Development-Storybook/
+│
+├── .storybook/
+│   ├── main.js
+│   └── preview.jsx
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── iphone.png
+│   │   ├── smartwatch.png
+│   │   ├── macbook.png
+│   │   ├── ipad.png
+│   │   └── speaker.png
+│   │
+│   ├── components/
+│   │   ├── Badge.jsx
+│   │   ├── Button.jsx
+│   │   ├── Input.jsx
+│   │   └── ProductCard.jsx
+│   │
+│   ├── stories/
+│   │   ├── Badge.stories.jsx
+│   │   ├── Button.stories.jsx
+│   │   ├── Input.stories.jsx
+│   │   └── ProductCard.stories.jsx
+│   │
+│   ├── styles/
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/vansh21827/System-Design-and-Development-Storybook.git
+2. Navigate to the project
+cd System-Design-and-Development-Storybook
+3. Install dependencies
+npm install
+▶️ Run the Project
+Start React Application
+npm run dev
+Start Storybook
+npm run storybook
+
+Storybook runs at:
+
+http://localhost:6006
+🏗️ Production Build
+Build React Application
+npm run build
+Build Storybook
+npm run build-storybook
+
+The static Storybook build is generated inside:
+
+storybook-static/
+☁️ Vercel Deployment
+
+The Storybook application is deployed as a static production build using Vercel.
+
+Vercel Configuration
+Setting	Value
+Framework Preset	Other
+Build Command	npm run build-storybook
+Output Directory	storybook-static
+Install Command	npm install
+Deployment Flow
+GitHub Repository
+       ↓
+Vercel
+       ↓
+npm install
+       ↓
+npm run build-storybook
+       ↓
+storybook-static/
+       ↓
+Live Storybook
+♿ Accessibility
+
+The project includes the Storybook Accessibility addon to help identify common accessibility issues during component development.
+
+Accessibility considerations include:
+
+Semantic HTML
+Accessible interactive elements
+Image alternative text
+Keyboard-friendly controls
+Component-level accessibility checks
+📋 Sprint Completion
+Phase 1 – Base Architecture
+✅ Storybook configured
+✅ Minimum 3 core UI components
+✅ Component stories created
+✅ Isolated Storybook environment
+✅ Storybook development server configured
+Phase 2 – State & Integration
+✅ Storybook Args
+✅ Storybook Controls
+✅ Multiple component variants
+✅ Accessibility addon
+⏳ Dark Mode – Future Enhancement
+Phase 3 – Advanced
+✅ Static Storybook build
+✅ Production build verified
+✅ Vercel deployment
+✅ Live Storybook environment
+📌 Project Status
+
+Status: ✅ Completed
+
+The project successfully demonstrates a component-driven React development workflow using Storybook, with reusable components, interactive stories, accessibility support, static production builds, and Vercel deployment.
+
+🔮 Future Enhancements
+
+Potential future improvements include:
+
+Dark Mode support
+Advanced interaction testing
+Visual regression testing
+Chromatic integration
+Automated CI/CD
+Expanded component library
+Centralized design tokens
+MDX-based component documentation
+👨‍💻 Author
+Vansh Bansal
+
+Frontend Developer
