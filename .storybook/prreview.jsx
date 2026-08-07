@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import "../src/styles/global.css";
+import "../styles/global.css";
 
 /** @type {import('@storybook/react-vite').Preview} */
 const preview = {
