@@ -166,7 +166,7 @@ npm run dev
 Start Storybook
 npm run storybook
 
-### Storybook runs at:
+## Storybook runs at: 
 http://localhost:6006
 ---
 
@@ -211,12 +211,13 @@ Live Storybook
 The project includes the Storybook Accessibility addon to help identify common accessibility issues during component development.
 
 Accessibility considerations include:
-
+```
 Semantic HTML
 Accessible interactive elements
 Image alternative text
 Keyboard-friendly controls
 Component-level accessibility checks
+```
 ---
 ##🔮 Future Enhancements
 
@@ -233,6 +234,6 @@ MDX-based component documentation
 ```
 ---
 
-###👨‍💻 Author
+##👨‍💻 Author
 Vansh Bansal
 
