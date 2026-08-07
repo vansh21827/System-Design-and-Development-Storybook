@@ -97,8 +97,6 @@ src/
 
 ### ProductCard Variants
 
-The ProductCard story demonstrates multiple product scenarios:
-
 Default
 No Discount
 Expensive
@@ -184,14 +182,14 @@ storybook-static/
 The Storybook application is deployed as a static production build using Vercel.
 
 Vercel Configuration
-Setting | Value
-Framework Preset |	Other
-Build Command |	npm run build-storybook
-Output Directory |	storybook-static
-Install Command | npm install
+|Setting | Value|
+|Framework Preset |	Other|
+|Build Command |	npm run build-storybook|
+|Output Directory |	storybook-static|
+|Install Command | npm install|
 ---
 
-Deployment Flow
+## Deployment Flow
 ```
 GitHub Repository
        ↓
