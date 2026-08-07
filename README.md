@@ -83,7 +83,9 @@ src/stories/
 ├── Input.stories.jsx
 └── ProductCard.stories.jsx
 ---
-📁 Project Structure
+# 📁 Project Structure
+
+---
 ├── .storybook/
 │   ├── main.js
 │   └── preview.jsx
@@ -101,7 +103,7 @@ src/stories/
 ├── vite.config.js
 └── README.md
 ---
-
+---
 ⚙️ Installation
 
 Clone the repository:
