@@ -153,39 +153,46 @@ System-Design-and-Development-Storybook/
 ## ⚙️ Installation
 1. Clone the repository
 git clone https://github.com/vansh21827/System-Design-and-Development-Storybook.git
+
 2. Navigate to the project
 cd System-Design-and-Development-Storybook
-3. Install dependencies
+
+4. Install dependencies
 npm install
-▶️ Run the Project
+---
+## ▶️ Run the Project
 Start React Application
 npm run dev
 Start Storybook
 npm run storybook
 
-Storybook runs at:
-
+### Storybook runs at:
 http://localhost:6006
-🏗️ Production Build
+---
+
+## 🏗️ Production Build
 Build React Application
 npm run build
 Build Storybook
 npm run build-storybook
 
 The static Storybook build is generated inside:
-
 storybook-static/
-☁️ Vercel Deployment
+---
+## ☁️ Vercel Deployment
 
 The Storybook application is deployed as a static production build using Vercel.
 
 Vercel Configuration
-Setting	Value
-Framework Preset	Other
-Build Command	npm run build-storybook
-Output Directory	storybook-static
-Install Command	npm install
+Setting | Value
+Framework Preset |	Other
+Build Command |	npm run build-storybook
+Output Directory |	storybook-static
+Install Command | npm install
+---
+
 Deployment Flow
+```
 GitHub Repository
        ↓
 Vercel
@@ -197,7 +204,9 @@ npm run build-storybook
 storybook-static/
        ↓
 Live Storybook
-♿ Accessibility
+```
+---
+## ♿ Accessibility
 
 The project includes the Storybook Accessibility addon to help identify common accessibility issues during component development.
 
@@ -208,31 +217,9 @@ Accessible interactive elements
 Image alternative text
 Keyboard-friendly controls
 Component-level accessibility checks
-📋 Sprint Completion
-Phase 1 – Base Architecture
-✅ Storybook configured
-✅ Minimum 3 core UI components
-✅ Component stories created
-✅ Isolated Storybook environment
-✅ Storybook development server configured
-Phase 2 – State & Integration
-✅ Storybook Args
-✅ Storybook Controls
-✅ Multiple component variants
-✅ Accessibility addon
-⏳ Dark Mode – Future Enhancement
-Phase 3 – Advanced
-✅ Static Storybook build
-✅ Production build verified
-✅ Vercel deployment
-✅ Live Storybook environment
-📌 Project Status
+---
 
-Status: ✅ Completed
-
-The project successfully demonstrates a component-driven React development workflow using Storybook, with reusable components, interactive stories, accessibility support, static production builds, and Vercel deployment.
-
-🔮 Future Enhancements
+##🔮 Future Enhancements
 
 Potential future improvements include:
 
@@ -244,7 +231,8 @@ Automated CI/CD
 Expanded component library
 Centralized design tokens
 MDX-based component documentation
-👨‍💻 Author
+---
+
+###👨‍💻 Author
 Vansh Bansal
 
-Frontend Developer
