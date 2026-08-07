@@ -1,0 +1,425 @@
+{
+  "v": 0,
+  "components": {
+    "components-badge": {
+      "id": "components-badge",
+      "name": "Badge",
+      "path": "./src/stories/Badge.stories.jsx",
+      "jsDocTags": {},
+      "reactDocgen": {
+        "description": "",
+        "methods": [],
+        "displayName": "Badge",
+        "definedInFile": "C:\\Users\\VICTUS\\OneDrive\\Documents\\Prodesk IT\\Sprint 12\\src\\components\\Badge.jsx",
+        "actualName": "Badge",
+        "exportName": "default",
+        "props": {
+          "variant": {
+            "defaultValue": {
+              "value": "\"primary\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "\"primary\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"success\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"warning\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"danger\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"secondary\"",
+                  "computed": false
+                }
+              ]
+            },
+            "required": false
+          },
+          "rounded": {
+            "defaultValue": {
+              "value": "true",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "bool"
+            },
+            "required": false
+          },
+          "children": {
+            "description": "",
+            "type": {
+              "name": "node"
+            },
+            "required": true
+          }
+        }
+      },
+      "stories": [
+        {
+          "id": "components-badge--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Badge variant=\"primary\">New</Badge>;"
+        },
+        {
+          "id": "components-badge--success",
+          "name": "Success",
+          "snippet": "const Success = () => <Badge variant=\"success\">In Stock</Badge>;"
+        },
+        {
+          "id": "components-badge--warning",
+          "name": "Warning",
+          "snippet": "const Warning = () => <Badge variant=\"warning\">Sale</Badge>;"
+        },
+        {
+          "id": "components-badge--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Badge variant=\"danger\">Out of Stock</Badge>;"
+        },
+        {
+          "id": "components-badge--secondary",
+          "name": "Secondary",
+          "snippet": "const Secondary = () => <Badge variant=\"secondary\">Featured</Badge>;"
+        }
+      ],
+      "import": "import { Badge } from \"ecommerce-route\";"
+    },
+    "components-button": {
+      "id": "components-button",
+      "name": "Button",
+      "path": "./src/stories/Button.stories.jsx",
+      "jsDocTags": {},
+      "reactDocgen": {
+        "description": "",
+        "methods": [],
+        "displayName": "Button",
+        "definedInFile": "C:\\Users\\VICTUS\\OneDrive\\Documents\\Prodesk IT\\Sprint 12\\src\\components\\Button.jsx",
+        "actualName": "Button",
+        "exportName": "default",
+        "props": {
+          "variant": {
+            "defaultValue": {
+              "value": "\"primary\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "\"primary\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"secondary\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"success\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"danger\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"outline\"",
+                  "computed": false
+                }
+              ]
+            },
+            "required": false
+          },
+          "size": {
+            "defaultValue": {
+              "value": "\"medium\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "\"small\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"medium\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"large\"",
+                  "computed": false
+                }
+              ]
+            },
+            "required": false
+          },
+          "disabled": {
+            "defaultValue": {
+              "value": "false",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "bool"
+            },
+            "required": false
+          },
+          "fullWidth": {
+            "defaultValue": {
+              "value": "false",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "bool"
+            },
+            "required": false
+          },
+          "type": {
+            "defaultValue": {
+              "value": "\"button\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "enum",
+              "value": [
+                {
+                  "value": "\"button\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"submit\"",
+                  "computed": false
+                },
+                {
+                  "value": "\"reset\"",
+                  "computed": false
+                }
+              ]
+            },
+            "required": false
+          },
+          "children": {
+            "description": "",
+            "type": {
+              "name": "node"
+            },
+            "required": true
+          },
+          "onClick": {
+            "description": "",
+            "type": {
+              "name": "func"
+            },
+            "required": false
+          }
+        }
+      },
+      "stories": [
+        {
+          "id": "components-button--primary",
+          "name": "Primary",
+          "snippet": "const Primary = () => <Button variant=\"primary\">Add to Cart</Button>;"
+        },
+        {
+          "id": "components-button--secondary",
+          "name": "Secondary",
+          "snippet": "const Secondary = () => <Button variant=\"secondary\">Buy Now</Button>;"
+        },
+        {
+          "id": "components-button--success",
+          "name": "Success",
+          "snippet": "const Success = () => <Button variant=\"success\">Checkout</Button>;"
+        },
+        {
+          "id": "components-button--danger",
+          "name": "Danger",
+          "snippet": "const Danger = () => <Button variant=\"danger\">Delete</Button>;"
+        },
+        {
+          "id": "components-button--outline",
+          "name": "Outline",
+          "snippet": "const Outline = () => <Button variant=\"outline\">View Details</Button>;"
+        },
+        {
+          "id": "components-button--disabled",
+          "name": "Disabled",
+          "snippet": "const Disabled = () => <Button disabled>Out of Stock</Button>;"
+        }
+      ],
+      "import": "import { Button } from \"ecommerce-route\";"
+    },
+    "components-input": {
+      "id": "components-input",
+      "name": "Input",
+      "path": "./src/stories/Input.stories.jsx",
+      "jsDocTags": {},
+      "reactDocgen": {
+        "description": "",
+        "methods": [],
+        "displayName": "Input",
+        "definedInFile": "C:\\Users\\VICTUS\\OneDrive\\Documents\\Prodesk IT\\Sprint 12\\src\\components\\Input.jsx",
+        "actualName": "Input",
+        "exportName": "default",
+        "props": {
+          "type": {
+            "defaultValue": {
+              "value": "\"text\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "string"
+            },
+            "required": false
+          },
+          "disabled": {
+            "defaultValue": {
+              "value": "false",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "bool"
+            },
+            "required": false
+          },
+          "error": {
+            "defaultValue": {
+              "value": "\"\"",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "string"
+            },
+            "required": false
+          },
+          "fullWidth": {
+            "defaultValue": {
+              "value": "false",
+              "computed": false
+            },
+            "description": "",
+            "type": {
+              "name": "bool"
+            },
+            "required": false
+          },
+          "label": {
+            "description": "",
+            "type": {
+              "name": "string"
+            },
+            "required": false
+          },
+          "placeholder": {
+            "description": "",
+            "type": {
+              "name": "string"
+            },
+            "required": false
+          },
+          "value": {
+            "description": "",
+            "type": {
+              "name": "string"
+            },
+            "required": false
+          },
+          "onChange": {
+            "description": "",
+            "type": {
+              "name": "func"
+            },
+            "required": false
+          }
+        }
+      },
+      "stories": [
+        {
+          "id": "components-input--default",
+          "name": "Default",
+          "snippet": "const Default = () => <Input label=\"Email\" placeholder=\"Enter your email\" />;"
+        },
+        {
+          "id": "components-input--password",
+          "name": "Password",
+          "snippet": "const Password = () => <Input label=\"Password\" placeholder=\"Enter password\" type=\"password\" />;"
+        },
+        {
+          "id": "components-input--disabled",
+          "name": "Disabled",
+          "snippet": "const Disabled = () => <Input label=\"Username\" placeholder=\"Disabled\" disabled />;"
+        },
+        {
+          "id": "components-input--error",
+          "name": "Error",
+          "snippet": "const Error = () => <Input label=\"Email\" placeholder=\"Enter email\" error=\"Invalid email address\" />;"
+        }
+      ],
+      "import": "import { Input } from \"ecommerce-route\";"
+    },
+    "components-productcard": {
+      "id": "components-productcard",
+      "name": "ProductCard",
+      "path": "./src/stories/ProductCard.stories.jsx",
+      "jsDocTags": {},
+      "reactDocgen": {
+        "description": "",
+        "methods": [],
+        "displayName": "ProductCard",
+        "definedInFile": "C:\\Users\\VICTUS\\OneDrive\\Documents\\Prodesk IT\\Sprint 12\\src\\components\\ProductCard.jsx",
+        "actualName": "ProductCard",
+        "exportName": "default"
+      },
+      "stories": [
+        {
+          "id": "components-productcard--default",
+          "name": "Default",
+          "snippet": "const Default = () => <ProductCard product={product} />;"
+        },
+        {
+          "id": "components-productcard--no-discount",
+          "name": "No Discount",
+          "snippet": "const NoDiscount = () => <ProductCard\r\n    product={{\r\n      \"id\": 2,\r\n      \"title\": \"Smartwatch\",\r\n      \"brand\": \"Apple\",\r\n      \"category\": \"Smartwatches\",\r\n      \"thumbnail\": \"/src/assets/smartwatch.png\",\r\n      \"price\": 499,\r\n      \"rating\": 4.7,\r\n      \"discountPercentage\": 10\r\n    }} />;"
+        },
+        {
+          "id": "components-productcard--expensive",
+          "name": "Expensive",
+          "snippet": "const Expensive = () => <ProductCard\r\n    product={{\r\n      \"id\": 1,\r\n      \"title\": \"MacBook Pro\",\r\n      \"brand\": \"Apple\",\r\n      \"category\": \"Laptops\",\r\n      \"thumbnail\": \"/src/assets/macbook.png\",\r\n      \"price\": 2499,\r\n      \"rating\": 5,\r\n      \"discountPercentage\": 12\r\n    }} />;"
+        },
+        {
+          "id": "components-productcard--discount",
+          "name": "Discount",
+          "snippet": "const Discount = () => <ProductCard\r\n    product={{\r\n      \"id\": 1,\r\n      \"title\": \"iPad\",\r\n      \"brand\": \"Apple\",\r\n      \"category\": \"Electronics\",\r\n      \"thumbnail\": \"/src/assets/ipad.png\",\r\n      \"price\": 1399,\r\n      \"rating\": 4.8,\r\n      \"discountPercentage\": 20\r\n    }} />;"
+        },
+        {
+          "id": "components-productcard--out-of-stock",
+          "name": "Out Of Stock",
+          "snippet": "const OutOfStock = () => <ProductCard\r\n    product={{\r\n      \"id\": 1,\r\n      \"title\": \"Speaker\",\r\n      \"brand\": \"Apple\",\r\n      \"category\": \"SoundBox\",\r\n      \"thumbnail\": \"/src/assets/speaker.png\",\r\n      \"price\": 299,\r\n      \"rating\": 4.8,\r\n      \"discountPercentage\": 0,\r\n      \"stock\": 0\r\n    }} />;"
+        }
+      ],
+      "import": "import { ProductCard } from \"ecommerce-route\";"
+    }
+  },
+  "meta": {
+    "docgen": "react-docgen",
+    "durationMs": 429
+  }
+}
