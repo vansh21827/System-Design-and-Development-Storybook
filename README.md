@@ -183,6 +183,7 @@ The Storybook application is deployed as a static production build using Vercel.
 
 Vercel Configuration
 |Setting | Value|
+|---|---|
 |Framework Preset |	Other|
 |Build Command |	npm run build-storybook|
 |Output Directory |	storybook-static|
@@ -232,6 +233,6 @@ MDX-based component documentation
 ```
 ---
 
-##👨‍💻 Author
+# Author
 Vansh Bansal
 
