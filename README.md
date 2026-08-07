@@ -218,7 +218,7 @@ Keyboard-friendly controls
 Component-level accessibility checks
 ```
 ---
-#🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Potential future improvements include:
 ```
