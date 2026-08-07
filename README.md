@@ -77,14 +77,15 @@ E-commerce product component supporting:
 ## 📚 Storybook
 
 Stories are located inside:
+---
 src/stories/
 ├── Badge.stories.jsx
 ├── Button.stories.jsx
 ├── Input.stories.jsx
 └── ProductCard.stories.jsx
 ---
-# 📁 Project Structure
 
+# 📁 Project Structure
 ---
 ├── .storybook/
 │   ├── main.js
@@ -183,4 +184,4 @@ The project successfully demonstrates a component-driven React development workf
 Vansh Bansal
 
 Frontend Developer
-```text
+```
